@@ -11,6 +11,10 @@
 		6301582622960405007BA3F1 /* ConfigurationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63015824229603FD007BA3F1 /* ConfigurationKey.swift */; };
 		6301582722960405007BA3F1 /* ConfigurationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63015824229603FD007BA3F1 /* ConfigurationKey.swift */; };
 		6301582822960406007BA3F1 /* ConfigurationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63015824229603FD007BA3F1 /* ConfigurationKey.swift */; };
+		6301583622960C77007BA3F1 /* EmptyPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301583522960C77007BA3F1 /* EmptyPayload.swift */; };
+		6301583722960C77007BA3F1 /* EmptyPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301583522960C77007BA3F1 /* EmptyPayload.swift */; };
+		6301583822960C77007BA3F1 /* EmptyPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301583522960C77007BA3F1 /* EmptyPayload.swift */; };
+		6301583922960C77007BA3F1 /* EmptyPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301583522960C77007BA3F1 /* EmptyPayload.swift */; };
 		630445EA227BADB200A29319 /* GrioCommon_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 630445E8227BADB200A29319 /* GrioCommon_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		630445F7227BAE2000A29319 /* Einstein_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 630445F5227BAE2000A29319 /* Einstein_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63044604227BAE5200A29319 /* Einstein_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 63044602227BAE5200A29319 /* Einstein_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -101,6 +105,7 @@
 
 /* Begin PBXFileReference section */
 		63015824229603FD007BA3F1 /* ConfigurationKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationKey.swift; sourceTree = "<group>"; };
+		6301583522960C77007BA3F1 /* EmptyPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyPayload.swift; sourceTree = "<group>"; };
 		630445E5227BADB200A29319 /* Einstein.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Einstein.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		630445E8227BADB200A29319 /* GrioCommon_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrioCommon_iOS.h; sourceTree = "<group>"; };
 		630445E9227BADB200A29319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -256,6 +261,7 @@
 				63044641227BB63200A29319 /* HTTPHeader.swift */,
 				63044642227BB63200A29319 /* HTTPMethod.swift */,
 				63422332228E65F600F9CA92 /* EmptyAPIResponse.swift */,
+				6301583522960C77007BA3F1 /* EmptyPayload.swift */,
 				638360872282402D00C3A1E7 /* Mocking */,
 				638360882282403B00C3A1E7 /* Reachability */,
 			);
@@ -526,6 +532,7 @@
 				63044655227BB63200A29319 /* APIRequestMonitor.swift in Sources */,
 				63191EDA2281FC3F00C528B7 /* UITableViewCell+Extension.swift in Sources */,
 				63191EDC2282040C00C528B7 /* FetchedResultsViewController.swift in Sources */,
+				6301583622960C77007BA3F1 /* EmptyPayload.swift in Sources */,
 				6304466D227CDA5600A29319 /* NSManagedObjectConvertible.swift in Sources */,
 				63044664227BB63200A29319 /* HTTPMethod.swift in Sources */,
 				63044661227BB63200A29319 /* HTTPHeader.swift in Sources */,
@@ -556,6 +563,7 @@
 				630C706B228DFC9300AA54DE /* FeatureFlag.swift in Sources */,
 				6301582622960405007BA3F1 /* ConfigurationKey.swift in Sources */,
 				63044656227BB63200A29319 /* APIRequestMonitor.swift in Sources */,
+				6301583722960C77007BA3F1 /* EmptyPayload.swift in Sources */,
 				6304466E227CDA5600A29319 /* NSManagedObjectConvertible.swift in Sources */,
 				63044665227BB63200A29319 /* HTTPMethod.swift in Sources */,
 				63044662227BB63200A29319 /* HTTPHeader.swift in Sources */,
@@ -579,6 +587,7 @@
 			files = (
 				630C7063228DFC8100AA54DE /* JSONSerialization+Extension.swift in Sources */,
 				63044618227BAEB700A29319 /* PersistentContainer.swift in Sources */,
+				6301583822960C77007BA3F1 /* EmptyPayload.swift in Sources */,
 				63044657227BB63200A29319 /* APIRequestMonitor.swift in Sources */,
 				6304466F227CDA5600A29319 /* NSManagedObjectConvertible.swift in Sources */,
 				63044666227BB63200A29319 /* HTTPMethod.swift in Sources */,
@@ -619,6 +628,7 @@
 				630C7075228DFCA900AA54DE /* MockURLProtocol.swift in Sources */,
 				630C705E228DFC7500AA54DE /* NSManagedObjectConvertible.swift in Sources */,
 				630C707F228DFCDD00AA54DE /* ReachabilityManagerListener.swift in Sources */,
+				6301583922960C77007BA3F1 /* EmptyPayload.swift in Sources */,
 				630C707E228DFCD800AA54DE /* ReachabilityManager.swift in Sources */,
 				6301582822960406007BA3F1 /* ConfigurationKey.swift in Sources */,
 				630C7073228DFCA200AA54DE /* HTTPHeader.swift in Sources */,
