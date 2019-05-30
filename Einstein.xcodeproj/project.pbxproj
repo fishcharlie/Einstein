@@ -101,6 +101,10 @@
 		638360902282428900C3A1E7 /* DeepLinkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638360662282341300C3A1E7 /* DeepLinkable.swift */; };
 		638360942282428E00C3A1E7 /* Instantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63836062228224A800C3A1E7 /* Instantiable.swift */; };
 		6383609A22837D6100C3A1E7 /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383609922837D6100C3A1E7 /* UIAlertController+Extension.swift */; };
+		B5DBBE2222A045C900D696C1 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DBBE2122A045C900D696C1 /* Observable.swift */; };
+		B5DBBE2322A045C900D696C1 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DBBE2122A045C900D696C1 /* Observable.swift */; };
+		B5DBBE2422A045C900D696C1 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DBBE2122A045C900D696C1 /* Observable.swift */; };
+		B5DBBE2522A045C900D696C1 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DBBE2122A045C900D696C1 /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -143,6 +147,7 @@
 		638360852282387200C3A1E7 /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
 		638360892282405200C3A1E7 /* ReachabilityManagerListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManagerListener.swift; sourceTree = "<group>"; };
 		6383609922837D6100C3A1E7 /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
+		B5DBBE2122A045C900D696C1 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +299,7 @@
 			children = (
 				634B039D228622E200EB7796 /* FeatureFlag.swift */,
 				633F32E52295E8D2004A2795 /* Configuration.swift */,
+				B5DBBE2122A045C900D696C1 /* Observable.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -549,6 +555,7 @@
 				638360672282341300C3A1E7 /* DeepLinkable.swift in Sources */,
 				6383609A22837D6100C3A1E7 /* UIAlertController+Extension.swift in Sources */,
 				63015825229603FD007BA3F1 /* ConfigurationKey.swift in Sources */,
+				B5DBBE2222A045C900D696C1 /* Observable.swift in Sources */,
 				6304464C227BB63200A29319 /* APIRequestLoader.swift in Sources */,
 				634B039E228622E200EB7796 /* FeatureFlag.swift in Sources */,
 				6304465B227BB63200A29319 /* API.swift in Sources */,
@@ -575,6 +582,7 @@
 				630C7064228DFC8100AA54DE /* JSONSerialization+Extension.swift in Sources */,
 				63044659227BB63200A29319 /* APIRequest.swift in Sources */,
 				63044644227BB63200A29319 /* GrioError.swift in Sources */,
+				B5DBBE2322A045C900D696C1 /* Observable.swift in Sources */,
 				6304464D227BB63200A29319 /* APIRequestLoader.swift in Sources */,
 				634B03A6228B41F800EB7796 /* DispatchQueue+Extension.swift in Sources */,
 				6304465C227BB63200A29319 /* API.swift in Sources */,
@@ -601,6 +609,7 @@
 				6304465A227BB63200A29319 /* APIRequest.swift in Sources */,
 				638360942282428E00C3A1E7 /* Instantiable.swift in Sources */,
 				634B03A7228B41F900EB7796 /* DispatchQueue+Extension.swift in Sources */,
+				B5DBBE2422A045C900D696C1 /* Observable.swift in Sources */,
 				63044645227BB63200A29319 /* GrioError.swift in Sources */,
 				6301582722960405007BA3F1 /* ConfigurationKey.swift in Sources */,
 				6383608C2282428500C3A1E7 /* FetchedResultsViewController.swift in Sources */,
@@ -615,6 +624,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5DBBE2522A045C900D696C1 /* Observable.swift in Sources */,
 				630C7076228DFCAB00AA54DE /* URLSession+Networking.swift in Sources */,
 				63422334228E661000F9CA92 /* EmptyAPIResponse.swift in Sources */,
 				630C706C228DFC9300AA54DE /* FeatureFlag.swift in Sources */,
