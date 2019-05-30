@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol ObservableClass {
+private protocol ObservableClass {
     associatedtype ValueType
     associatedtype ListenerClosure
 
