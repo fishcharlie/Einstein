@@ -2,8 +2,6 @@
 //  Observable.swift
 //  Einstein
 //
-//  Created by Charlie Fish on 5/30/19.
-//
 
 import Foundation
 
