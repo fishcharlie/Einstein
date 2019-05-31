@@ -16,13 +16,24 @@ final class Observable<T>: ObservableClass {
     typealias ValueType = T
     typealias ListenerClosure = (_ new: T, _ old: T?) -> Void
 
+    private let dispatchQueue = DispatchQueue(from: StringKey(rawValue: "com.Observable.DispatchQueue"))
     private var observers: [ListenerClosure] = []
 
     init(_ value: T) {
-        self.value = value
+        self._value = value
     }
 
     var value: T {
+        get {
+            return dispatchQueue.sync { return _value }
+        }
+
+        set {
+            dispatchQueue.sync { _value = newValue }
+        }
+    }
+
+    private var _value: T {
         didSet {
             notify(new: value, old: oldValue)
         }
