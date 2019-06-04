@@ -12,18 +12,18 @@ private protocol ObservableClass {
     var value: ValueType { get set }
 }
 
-final class Observable<T>: ObservableClass {
+final public class Observable<T>: ObservableClass {
     typealias ValueType = T
-    typealias ListenerClosure = (_ new: T, _ old: T?) -> Void
+    public typealias ListenerClosure = (_ new: T, _ old: T?) -> Void
 
     private let dispatchQueue = DispatchQueue(from: StringKey(rawValue: "com.Observable.DispatchQueue"))
     private var observers: [ListenerClosure] = []
 
-    init(_ value: T) {
+    public init(_ value: T) {
         self._value = value
     }
 
-    var value: T {
+    public var value: T {
         get {
             return dispatchQueue.sync { return _value }
         }
@@ -39,7 +39,7 @@ final class Observable<T>: ObservableClass {
         }
     }
 
-    func addObserver(fire: Bool = false, _ closure: @escaping ListenerClosure) {
+    public func addObserver(fire: Bool = false, _ closure: @escaping ListenerClosure) {
         observers.append(closure)
 
         if fire {
